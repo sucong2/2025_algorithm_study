@@ -18,3 +18,4 @@ string solution(string myString) {
     }
     return answer;
 }
+

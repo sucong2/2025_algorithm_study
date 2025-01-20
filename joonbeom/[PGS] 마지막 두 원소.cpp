@@ -15,3 +15,4 @@ vector<int> solution(vector<int> num_list) {
     }
     return answer;
 }
+

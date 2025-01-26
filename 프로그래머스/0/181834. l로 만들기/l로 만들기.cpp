@@ -5,15 +5,12 @@ using namespace std;
 
 string solution(string myString) {
     string answer = "";
-    for (char c: myString){
-        if (c=='a'){
-            answer += 'A';
-        }
-        else if(c>'A' && c<='Z'){
-            answer += c + 32;
+    for(char c : myString){
+        if(c-'l'>0){
+            answer+=c;
         }
         else{
-            answer += c;
+            answer += 'l';
         }
     }
     return answer;
